@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Max's Burgers</title>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link rel="stylesheet" href="output.css" />
+    </head>
+    <body>
+        <header>
+            <nav
+                class="flex items-center justify-between p-6 lg:px-8"
+                aria-label="Global"
+            >
+                <div class="flex lg:flex-1">
+                    <a href="#" class="-m-1 p-1">
+                        <span class="sr-only">Max's Burgers</span>
+                        <img id="burgerIcon" class="h-8 w-auto" alt="" />
+                    </a>
+                </div>
+                <div class="flex lg:flex-auto">
+                    <h1
+                        class="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl"
+                    >
+                        Max's Burgers
+                    </h1>
+                </div>
+                <div class="flex lg:hidden">
+                    <button
+                        type="button"
+                        class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                    >
+                        <span class="sr-only">Open main menu</span>
+                        <svg
+                            class="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                            />
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden lg:flex lg:gap-x-12">
+                    <a
+                        href="#"
+                        id="aboutButton"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Who are we?</a
+                    >
+                    <a
+                        href="#"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Menu</a
+                    >
+                    <a
+                        href="#"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Reservations</a
+                    >
+                    <a
+                        href="#"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Locations</a
+                    >
+                </div>
+                <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                    <a
+                        href="#"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Log in <span aria-hidden="true">&rarr;</span></a
+                    >
+                </div>
+            </nav>
+            <!-- <nav>
+                <button id="about">Who are we?</button>
+                <button id="menu">Menu</button>
+                <button id="reservations">Reservations</button>
+                <button id="locations">Locations</button>
+                <button id="impressum">Impressum</button>
+            </nav> -->
+        </header>
+        <div id="content"></div>
+    </body>
+</html>

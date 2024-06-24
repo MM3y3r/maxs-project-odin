@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Max's Page</title>
+        <script type="text/javascript" src="books.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body class="layout">
+        <div>
+            <div class="textBox">
+                <h1>Max's Book Shelf</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                </p>
+
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div id="booksList" class="bookContainer"></div>
+        </div>
+        <div class="fullWidthBox">
+            <dialog>
+                <form id="bookForm">
+                    <h1>Login</h1>
+                    <input
+                        name="newTitle"
+                        id="newTitle"
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter your Title..."
+                    />
+                    <input
+                        name="newAuthor"
+                        id="newAuthor"
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter your Author..."
+                    />
+                    <input
+                        name="newPages"
+                        id="newPages"
+                        type="text"
+                        class="form-control"
+                        placeholder="Enter number of pages..."
+                    />
+                    <button type="submit">Add to books list</button>
+                </form>
+            </dialog>
+            <button id="openNewBookDialog">New Book</button>
+        </div>
+    </body>
+</html>

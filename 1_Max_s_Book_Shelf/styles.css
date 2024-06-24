@@ -1,0 +1,82 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    font: 16px Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.textBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.fullWidthBox {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.bookContainer {
+    margin: 0;
+    padding: 10px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bookCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 10px;
+    margin: 5px;
+    background-color: #555;
+    border-radius: 5px;
+    height: 80px;
+    min-width: 100px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    margin-left: 15px;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#deleteBookButton {
+    background-color: #444;
+    color: #4caf50;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding: 5px;
+}
+
+#readBookButton {
+    background-color: #444;
+    color: #4caf50;
+    margin-top: 5px;
+    margin-left: 0px;
+    padding: 5px;
+}
